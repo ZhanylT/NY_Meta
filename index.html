@@ -1,154 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Metalabs</title>
-    <link rel="stylesheet" href="./assets/styles/style.css">
-    <link rel="stylesheet" href="./assets/styles/media.css">
-</head>
-<body>
-    <div class="container-animate">
-          <div class="snows">
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-          </div>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/components.css" />
+    <link rel="stylesheet" href="./assets/styles/header.css" />
+    <link rel="stylesheet" href="./assets/styles/fonts.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="blur"></div>
+      <div class="container header-content">
+        <div class="header__logo">
+          <img class="logo" src="./assets/src/logo.svg" alt="NewLogo" />
+        </div>
 
-          <header class="header" id="header">
+        <img class="bell" src="./assets/src/bell.png" alt="Bell" />
 
-            <div class="container">
-     
-                 <div class="header-content">
-     
-                     <div class="header__logo">
-     
-                         <img class="logo" src="./assets/src/new-logo-white.png" alt="NewLogo">
-             
-                     </div>
-             
-                     <div class="header__image">
-             
-                         <img src="./assets/src/bell.png" alt="Bell">
-             
-                     </div>
-             
-                     <nav class="header__menu">
-             
-                         <ul class="header__list">
-             
-                             <li class="header__link">
-             
-                                 <a href="#">Главная</a>
-             
-                             </li>
-             
-                             <li class="header__link">
-             
-                                 <a href="#">Курсы</a>
-             
-                             </li>
-             
-                             <li class="header__link">
-             
-                                 <a href="#">Категории</a>
-             
-                             </li>
-             
-                             <li class="header__link">
-             
-                                 <a href="#">О нас</a>
-             
-                             </li>
-             
-                             <li class="header__link">
-             
-                                 <a href="#">Отзывы</a>
-             
-                             </li>
-             
-                             <li class="header__link">
-             
-                                 <a href="#">Контакты</a>
-             
-                             </li>
-             
-                         </ul>
-             
-                     </nav>
-     
-                 </div>
-     
-                 <nav class="burger">
-     
-                     <input hidden type="checkbox" id="burger">
-         
-                     <label for="burger" class="burger__btn">
-         
-                         <span class="burger__line"></span>
-         
-                     </label>
-         
-                     <div class="burger__menu">
-         
-                         <label class="burger__exit" for="burger"></label>
-         
-                         <ul class="burger__list">
-         
-                             <li class="burger__link">
-         
-                                 <a href="#">Главная</a>
-         
-                             </li>
-         
-                             <li class="burger__link">
-         
-                                 <a href="#">Курсы</a>
-         
-                             </li>
-         
-                             <li class="burger__link">
-         
-                                 <a href="">Категории</a>
-         
-                             </li>
-         
-                             <li class="burger__link">
-         
-                                 <a href="">О нас</a>
-                                 
-                             </li>
-         
-                             <li class="burger__link">
-         
-                                 <a href="#">Отзывы</a>
-         
-                             </li>
-     
-                             <li class="burger__link">
-         
-                                 <a href="#">Контакты</a>
-         
-                             </li>
-         
-                         </ul>
-         
-                     </div>
-         
-                 </nav>
-     
-            </div>
-     
-          </header>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__link">
+              <a href="#">Главная</a>
+            </li>
 
-          <section class="hero" id="hero">
+            <li class="header__link">
+              <a href="#">Курсы</a>
+            </li>
+
+            <li class="header__link">
+              <a href="#">Категории</a>
+            </li>
+
+            <li class="header__link">
+              <a href="#">О нас</a>
+            </li>
+
+            <li class="header__link">
+              <a href="#">Отзывы</a>
+            </li>
+          </ul>
+
+          <button class="button button-contact">Контакты</button>
+        </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
+      <nav class="mobile-nav">
+        <a href="#">Главная</a>
+        <a href="#">Курсы</a>
+        <a href="#">О нас</a>
+        <a href="#">Отзывы</a>
+        <a href="#">Контакты</a>
+      </nav>
+    </header>
+
+    <!-- <section class="hero" id="hero">
 
             <div class="container">
      
@@ -178,9 +88,9 @@
      
             </div>
      
-         </section>
+         </section> -->
 
-         <section class="courses" id="courses">
+    <!-- <section class="courses" id="courses">
     
             <div class="container">
     
@@ -188,7 +98,6 @@
     
                 <div class="card-wrapper">
     
-                    <!-- todo: card-1 -->
     
                 <div class="card">
     
@@ -233,9 +142,7 @@
             
                 </div>
     
-                <!-- todo: card-1 -->
     
-                <!-- todo: card-2 -->
     
                 <div class="card">
     
@@ -280,9 +187,7 @@
             
                 </div>
     
-                <!-- todo: card-2 -->
     
-                <!-- todo: card-3 -->
     
                 <div class="card">
     
@@ -333,9 +238,6 @@
             
                 </div>
     
-                <!-- todo: card-3 -->
-    
-                <!-- todo: card-4 -->
     
                 <div class="card">
     
@@ -380,9 +282,6 @@
             
                 </div>
     
-                <!-- todo: card-4 -->
-    
-                <!-- todo: card-5 -->
     
                 <div class="card">
     
@@ -427,9 +326,7 @@
             
                 </div>
     
-                <!-- todo: card-5 -->
     
-                <!-- todo: card-6 -->
     
                 <div class="card">
     
@@ -480,14 +377,12 @@
             
                 </div>
     
-                <!-- todo: card-6 -->
     
                 </div>
             
             </div>
     
-       </section>
-
-      </div>
-</body>
+        </section> -->
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
