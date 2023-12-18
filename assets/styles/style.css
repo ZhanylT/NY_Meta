@@ -167,61 +167,6 @@
 
 /*SECTION HERO*/
 
-.hero {
-    /* background-color:  #2C1F4A; */
-}
-
-.hero__content {
-    display: flex;
-    justify-content: center;
-}
-
-.hero-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 46px;
-}
-
-.hero__title {
-    /* max-width: 997px; */
-    color: #FFF;
-    font-size: 55px;
-    line-height: 110px; 
-    letter-spacing: -0.5px;
-}
-
-.hero-text {
-    color: #BEA0FF;
-}
-
-.hero__desc-text {
-    max-width: 798px;
-    color: #B0B0D1;
-    font-size: 26px;
-    line-height: 40px; /* 153.846% */
-}
-
-.hero__lg-btn {
-    display: flex;
-    gap: 38px;
-}
-
-.hero__image {
-    width: 100%;
-    height: 100vh;
-    max-height: 659px;
-    background: url('../src/hero-man.svg') no-repeat center/cover;
-}
-
-.hero__background {
-    width: 436px;
-    height: 659px;
-    border-radius: 242.5px;
-    background: rgba(127, 86, 217, 0.50);
-}
-
-/*SECTION HERO*/
-
 /*SECTION COURSES*/
 
 .courses {
