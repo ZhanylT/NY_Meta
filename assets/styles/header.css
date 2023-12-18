@@ -110,6 +110,11 @@
   background-color: #24104f;
 }
 
+.header .blur {
+  top: -126px;
+  left: -78px;
+}
+
 @keyframes bell-animate {
   0% {
     transform: rotate(-15deg);

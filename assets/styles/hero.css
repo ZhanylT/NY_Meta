@@ -3,6 +3,12 @@
 
 .hero {
   margin-top: 60px;
+  position: relative;
+}
+
+.hero .blur {
+  top: 0;
+  right: 0;
 }
 
 .hero__wrapper {
