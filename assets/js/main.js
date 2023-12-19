@@ -14,4 +14,11 @@ window.onload = function () {
 		menu_btn.classList.toggle('is-active');
 		mobile_menu.classList.toggle('is-active');
 	});
+	
+  document.getElementById('course-input').addEventListener('change', function () {
+    var hiddenCards = document.querySelectorAll('.card-hidden');
+    hiddenCards.forEach(function (card) {
+      card.style.display = this.checked ? 'block' : 'none';
+    }, this);
+  });
 }

@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="./assets/styles/fonts.css" />
     <link rel="stylesheet" href="./assets/styles/hero.css" />
     <link rel="stylesheet" href="./assets/styles/partners.css" />
-    <link rel="stylesheet" href="./assets/styles/snow.css" />
+    <!-- <link rel="stylesheet" href="./assets/styles/snow.css" /> -->
     <link rel="stylesheet" href="./assets/styles/courses.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   </head>
   <body>
     <div class="snow_wrap">
@@ -314,113 +314,109 @@
               <button class="card__btn">Подробнее</button>
             </div>
           </div>
+          <div class="card card-hidden">
+            <img
+              class="card__img"
+              src="assets/src/courses/node.png"
+              alt="Laptop-1"
+            />
+            <div class="card__top">
+              <h2 class="card__title">Node.js с нуля</h2>
+              <p class="card__subtitle">Андакулов Акылбек</p>
+              <div class="card__time">
+                <img src="./assets/src/icons/clock.svg" alt="Clock" />
+                <span>50 часов лекций</span>
+              </div>
+              <div class="card__course">
+                <div class="card-small-block">
+                  <img src="./assets/src/icons/star.svg" alt="Star" />
+                  <span>4.9</span>
+                </div>
+                <div class="card-small-category">
+                  <p>Backend</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card__bottom">
+              <p>10990₽</p>
+              <button class="card__btn">Подробнее</button>
+            </div>
+          </div>
+          <div class="card card-hidden">
+            <img
+              class="card__img"
+              src="assets/src/courses/docker.png"
+              alt="Laptop-1"
+            />
+            <div class="card__top">
+              <h2 class="card__title">Docker и Ansible</h2>
+              <p class="card__subtitle">Сыймык Равшанбеков</p>
+              <div class="card__time">
+                <img src="./assets/src/icons/clock.svg" alt="Clock" />
+                <span>20 часов лекций</span>
+              </div>
+              <div class="card__course">
+                <div class="card-small-block">
+                  <img src="./assets/src/icons/star.svg" alt="Star" />
+                  <span>5.0</span>
+                </div>
+                <div class="card-small-category">
+                  <p>DevOps</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card__bottom">
+              <p>15990₽</p>
+              <button class="card__btn">Подробнее</button>
+            </div>
+          </div>
+          <div class="card card-hidden">
+            <img
+              class="card__img"
+              src="assets/src/courses/nest.png"
+              alt="Laptop-1"
+            />
+            <div class="card__top">
+              <h2 class="card__title">Nest.js с нуля</h2>
+              <p class="card__subtitle">Токтогазиева Жаныл</p>
+              <div class="card__time">
+                <img src="./assets/src/icons/clock.svg" alt="Clock" />
+                <span>27 часов лекций</span>
+              </div>
+              <div class="card__course">
+                <div class="card-small-block">
+                  <img src="./assets/src/icons/star.svg" alt="Star" />
+                  <span>5.0</span>
+                </div>
+                <div class="card-small-category">
+                  <p>Backend</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card__bottom">
+              <p>7990₽</p>
+              <button class="card__btn">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="all__courses">
+          <input hidden type="checkbox" id="course-input"></input>
+          <label for="course-input" class="button">Показать все курсы</label>
         </div>
       </div>
     </section>
 
     <section class="category" id="category">
-        <div class="container">
-            <h3 class="category_subtitle">Самые популярные <br><span class="categ_title">категории</span></h3>
+      <div class="container">
 
-            <div class="category_btn">
-                <button class="btn_category design"><i class="design_i"></i>design<a href="#"
-                                                                                     class="categ_link"></a></button>
-                <button class="btn_category data science"><i class="data_i"></i>data science<a href="#"
-                                                                                               class="categ_link"></a></button>
-                <button class="btn_category development"><i class="development_i"></i>development<a href="#"
-                                                                                                    class="categ_link"></a></button>
-                <button class="btn_category business"><i class="business_i"></i>business<a href="#"
-                                                                                           class="categ_link"></a></button>
-                <button class="btn_category professional_dev"><i class="professional_i"></i>professional_dev<a
-                        href="#" class="categ_link"></a></button>
-                <button class="btn_category marketing "><i class="marketing_i"></i>marketing<a href="#"
-                                                                                               class="categ_link"></a></button>
-                <button class="btn_category photography"><i class="photography_i"></i>photography<a href="#"
-                                                                                                    class="categ_link"></a></button>
-                <button class="btn_category music"><i class="music_i"></i>music<a href="#"
-                                                                                  class="categ_link"></a></button>
-            </div>
-            <!-- часть В чем наше отличие  -->
-            <div class="difference_others">
-                <div class="difference_question">
-                    <h3 class="diff_subtitle">В чем наше отличие?</h3>
-                    <p class="diff_title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est
-                        similique fuga sequi
-                        voluptatibus, necessitatibus beatae quae eos dolor, unde aperiam nemo fugiat perspiciatis
-                        ipsum voluptates ipsam hic laborum mollitia.</p><br>
-                    <p class="diff_title">ut labore et dolore magna aliqua. ex ea commodo consequat.</p>
-                    <button class="std_btn">Подробнее</button>
-                </div>
-
-                <div class="diff_girl">
-                    <div class="diff_background">
-                        <div class="diff_pic"></div>
-                    </div>
-                </div>
-
-                <div class="difference_content">
-                    <div class="content_row">
-                        <div class="icon_background">
-                            <div class="icon_instruc"></div>
-                        </div>
-                        <div class="content_row-text">
-                            <div class="content_row-amount">
-                                <p>300</p>
-                            </div>
-                            <div class="content_row_info">
-                                <span>Instructor</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="content_row">
-                        <div class="icon_background">
-                            <div class="icon_student"></div>
-                        </div>
-                        <div class="content_row-text">
-                            <div class="content_row-amount">
-                                <p>20,000+</p>
-                            </div>
-                            <div class="content_row_info">
-                                <span>Student</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content_row">
-                        <div class="icon_background">
-                            <div class="icon_video"></div>
-                        </div>
-                        <div class="content_row-text">
-                            <div class="content_row-amount">
-                                <p>10,000+</p>
-                            </div>
-                            <div class="content_row_info">
-                                <span>Video</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="content_row">
-                        <div class="icon_background">
-                            <div class="icon_users"></div>
-                        </div>
-                        <div class="content_row-text">
-                            <div class="content_row-amount">
-                                <p>1,00,000+</p>
-                            </div>
-                            <div class="content_row_info">
-                                <span>User's</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
+      </div>
     </section>
-    <!-- Отзывы о наших курсах тут надо доделать -->
-    <section class="testimonials" id="testimonials">
+
+    <!-- <section class="testimonials" id="testimonials">
         <div class="container">
             <div class="section_header">
                 <h3 class="section_header_title">Отзывы о наших курсах</h3>
@@ -537,8 +533,6 @@
                 <div class="swiper-pagination js-testimonals-pagination"></div>
             </div>
 
-            <!-- нижняя часть блока -->
-
             <div class="information">
                 <div class="info_motivation">
                     <h3>Наши знания – <span>твой ключ к успеху.</span> Присоединяйся и открывай двери к возможностям!</h3>
@@ -550,7 +544,8 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.js-testimonals_slider', {
