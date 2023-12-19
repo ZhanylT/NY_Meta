@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metalabs</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="stylesheet" href="./assets/styles/media.css">
 </head>
@@ -16,7 +16,7 @@
         <div class="snows">
 
 
-            
+
             <span></span><span></span><span></span><span></span><span></span>
             <span></span><span></span><span></span><span></span><span></span>
             <span></span><span></span><span></span><span></span><span></span>
@@ -29,7 +29,7 @@
             <span></span><span></span><span></span><span></span><span></span>
         </div>
 
-        
+
         <header class="header" id="header">
 
             <div class="container">
@@ -605,10 +605,11 @@
                 <div class="section_header">
                     <h3 class="section_header_title">Отзывы о наших курсах</h3>
                 </div>
+                <div class="container">
                 <div class="testimonals-content">
                     <div class=" swiper testimonals_slider js-testimonals_slider">
                         <div class="swiper-wrapper">
-                            <div class=" swiper-slide testimonials-item">
+                            <div class="swiper-slide testimonials-item">
                                 <div class="info">
                                     <img src="./assets/src/pic1.png" alt="">
                                     <div class="text-box">
@@ -713,16 +714,19 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="swiper-pagination js-testimonals-pagination"></div>   
                     </div>
-                    <div class="swiper-pagination js-testimonals-pagination"></div>
+
                 </div>
+            </div>
 
                 <!-- нижняя часть блока -->
 
                 <div class="information">
-                   <div class="info_motivation">
-                        <h3>Наши знания – <span>твой ключ к успеху.</span> Присоединяйся и открывай двери к возможностям!</h3>
-                    </div>                   
+                    <div class="info_motivation">
+                        <h3>Наши знания – <span>твой ключ к успеху.</span> Присоединяйся и открывай двери к
+                            возможностям!</h3>
+                    </div>
                     <div class="info_btn">
                         <button class="std_btn_info">Выбрать курс</button>
                         <button class="std_btn_info">Оставить заявку </button>
@@ -730,25 +734,35 @@
                 </div>
 
             </div>
-    </section>
+        </section>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.js-testimonals_slider', {
-            grabCursor: true,
-            spaceBetween: "30px",
-            pagination: {
-                el: 'js-testimonals-pagination',
-                clickable:true
-            },
-            breakpoints:{
-                767:{
-                    slidesPerView:2
-                }
-            }
-        });
-    </script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.js-testimonals_slider', {
+                grabCursor: true,
+                loop:true,
+                spaceBetween: "30px",
+                pagination: {
+                    el: 'js-testimonals-pagination',
+                    clickable: true
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                breakpoints: {
+                    767: {
+                        slidesPerView: 2
+                    }
+                },
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                    draggable: true
+                },
+                // slideToClickedSlide: true
+            });
+        </script>
 
 
 
