@@ -63,7 +63,7 @@
 .hero__img-student {
   position: absolute;
   top: 90px;
-  left: 150px;
+  left: 185px;
   width: 260px;
   animation: student-animate 2s infinite alternate-reverse;
 }
@@ -95,7 +95,6 @@
     font-size: 60px;
   }
 } 
-
 
 @media (max-width: 1200px) {
   .hero__text-block {
