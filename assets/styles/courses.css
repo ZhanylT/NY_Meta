@@ -3,17 +3,6 @@
   padding: 20px 0px;
 }
 
-.courses__title {
-  color: #fff;
-  font-size: 60px;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-}
-
-.courses__title span {
-  color: #7f56d9;
-}
-
 .card-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -147,7 +136,7 @@
 }
 
 .all__courses {
-  margin: 60px 0 100px;
+  margin: 60px 0;
   display: flex;
   justify-content: center;
 }

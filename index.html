@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Metalabs</title>
     <link rel="stylesheet" href="./assets/styles/style.css" />
@@ -11,10 +11,18 @@
     <link rel="stylesheet" href="./assets/styles/fonts.css" />
     <link rel="stylesheet" href="./assets/styles/hero.css" />
     <link rel="stylesheet" href="./assets/styles/partners.css" />
-    <!-- <link rel="stylesheet" href="./assets/styles/snow.css" /> -->
+    <link rel="stylesheet" href="./assets/styles/snow.css" />
     <link rel="stylesheet" href="./assets/styles/courses.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./assets/styles/difference.css" />
+    <link rel="stylesheet" href="./assets/styles/category.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <div class="snow_wrap">
@@ -131,7 +139,7 @@
 
     <section class="courses" id="courses">
       <div class="container">
-        <h3 class="courses__title">Каталог <span>Курсов</span></h3>
+        <h3 class="title">Каталог <span>Курсов</span></h3>
 
         <div class="card-wrapper">
           <div class="card">
@@ -163,6 +171,7 @@
               <button class="card__btn">Подробнее</button>
             </div>
           </div>
+
           <div class="card">
             <img
               class="card__img"
@@ -192,6 +201,7 @@
               <button class="card__btn">Подробнее</button>
             </div>
           </div>
+
           <div class="card">
             <img
               class="card__img"
@@ -221,6 +231,7 @@
               <button class="card__btn">Подробнее</button>
             </div>
           </div>
+
           <div class="card">
             <img
               class="card__img"
@@ -243,8 +254,8 @@
                   <p>Frontend</p>
                 </div>
                 <div class="card-small-category">
-                    <p>Backend</p>
-                  </div>
+                  <p>Backend</p>
+                </div>
               </div>
             </div>
 
@@ -253,6 +264,7 @@
               <button class="card__btn">Подробнее</button>
             </div>
           </div>
+
           <div class="card">
             <img
               class="card__img"
@@ -272,8 +284,8 @@
                   <span>5.0</span>
                 </div>
                 <div class="card-small-category">
-                    <p>Frontend</p>
-                  </div>
+                  <p>Frontend</p>
+                </div>
                 <div class="card-small-category">
                   <p>Backend</p>
                 </div>
@@ -285,6 +297,7 @@
               <button class="card__btn">Подробнее</button>
             </div>
           </div>
+
           <div class="card">
             <img
               class="card__img"
@@ -314,6 +327,7 @@
               <button class="card__btn">Подробнее</button>
             </div>
           </div>
+
           <div class="card card-hidden">
             <img
               class="card__img"
@@ -343,6 +357,7 @@
               <button class="card__btn">Подробнее</button>
             </div>
           </div>
+
           <div class="card card-hidden">
             <img
               class="card__img"
@@ -372,6 +387,7 @@
               <button class="card__btn">Подробнее</button>
             </div>
           </div>
+
           <div class="card card-hidden">
             <img
               class="card__img"
@@ -404,7 +420,7 @@
         </div>
 
         <div class="all__courses">
-          <input hidden type="checkbox" id="course-input"></input>
+          <input hidden type="checkbox" id="course-input"/>
           <label for="course-input" class="button">Показать все курсы</label>
         </div>
       </div>
@@ -412,156 +428,316 @@
 
     <section class="category" id="category">
       <div class="container">
+        <h3 class="title">Самые популярные <span>категории</span></h3>
 
+        <div class="category__container">
+          <div class="category__card">
+            <div>
+              <img
+                src="./assets/src/categories/design.png"
+                alt="design image"
+              />
+              <p class="category__card-title">Design</p>
+            </div>
+            <a href="#">
+              <div class="category__card-link">
+                <img src="./assets/src/icons/arrow-up-right.png" />
+              </div>
+            </a>
+          </div>
+
+          <div class="category__card">
+            <div>
+              <img
+                src="./assets/src/categories/development.png"
+                alt="design image"
+              />
+              <p class="category__card-title">Development</p>
+            </div>
+            <a href="#">
+              <div class="category__card-link">
+                <img src="./assets/src/icons/arrow-up-right.png" />
+              </div>
+            </a>
+          </div>
+
+          <div class="category__card">
+            <div>
+              <img src="./assets/src/categories/dev.png" alt="design image" />
+              <p class="category__card-title">Professional Dev.</p>
+            </div>
+            <a href="#">
+              <div class="category__card-link">
+                <img src="./assets/src/icons/arrow-up-right.png" />
+              </div>
+            </a>
+          </div>
+
+          <div class="category__card">
+            <div>
+              <img
+                src="./assets/src/categories/photography.png"
+                alt="design image"
+              />
+              <p class="category__card-title">Photography</p>
+            </div>
+            <a href="#">
+              <div class="category__card-link">
+                <img src="./assets/src/icons/arrow-up-right.png" />
+              </div>
+            </a>
+          </div>
+
+          <div class="category__card">
+            <div>
+              <img
+                src="./assets/src/categories/data-science.png"
+                alt="design image"
+              />
+              <p class="category__card-title">Data Science</p>
+            </div>
+            <a href="#">
+              <div class="category__card-link">
+                <img src="./assets/src/icons/arrow-up-right.png" />
+              </div>
+            </a>
+          </div>
+
+          <div class="category__card">
+            <div>
+              <img
+                src="./assets/src/categories/business.png"
+                alt="design image"
+              />
+              <p class="category__card-title">Business</p>
+            </div>
+            <a href="#">
+              <div class="category__card-link">
+                <img src="./assets/src/icons/arrow-up-right.png" />
+              </div>
+            </a>
+          </div>
+
+          <div class="category__card">
+            <div>
+              <img
+                src="./assets/src/categories/marketing.png"
+                alt="design image"
+              />
+              <p class="category__card-title">Marketing</p>
+            </div>
+            <a href="#">
+              <div class="category__card-link">
+                <img src="./assets/src/icons/arrow-up-right.png" />
+              </div>
+            </a>
+          </div>
+
+          <div class="category__card">
+            <div>
+              <img src="./assets/src/categories/music.png" alt="design image" />
+              <p class="category__card-title">Music</p>
+            </div>
+            <a href="#">
+              <div class="category__card-link">
+                <img src="./assets/src/icons/arrow-up-right.png" />
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- <section class="testimonials" id="testimonials">
-        <div class="container">
-            <div class="section_header">
-                <h3 class="section_header_title">Отзывы о наших курсах</h3>
-            </div>
-            <div class="testimonals-content">
-                <div class=" swiper testimonals_slider js-testimonals_slider">
-                    <div class="swiper-wrapper">
-                        <div class=" swiper-slide testimonials-item">
-                            <div class="info">
-                                <img src="./assets/src/pic1.png" alt="">
-                                <div class="text-box">
-                                    <h3 class="name">John Doe</h3>
-                                    <span class="job">Web developer</span>
-                                </div>
-                            </div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et accusantium aspernatur,
-                                esse perferendis sequi tempora quae quaerat dolorem,
-                                sunt doloremque laudantium sed quisquam eligendi praesentium? Sed quasi nam nisi
-                                ipsa.</p>
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide testimonials-item">
-                            <div class="info">
-                                <img src="./assets/src/pic2.png" alt="">
-                                <div class="text-box">
-                                    <h3 class="name">John Doe</h3>
-                                    <span class="job">Web developer</span>
-                                </div>
-                            </div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et accusantium aspernatur,
-                                esse perferendis sequi tempora quae quaerat dolorem,
-                                sunt doloremque laudantium sed quisquam eligendi praesentium? Sed quasi nam nisi
-                                ipsa.</p>
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide testimonials-item">
-                            <div class="info">
-                                <img src="./assets/src/pic3.png" alt="">
-                                <div class="text-box">
-                                    <h3 class="name">John Doe</h3>
-                                    <span class="job">Web developer</span>
-                                </div>
-                            </div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et accusantium aspernatur,
-                                esse perferendis sequi tempora quae quaerat dolorem,
-                                sunt doloremque laudantium sed quisquam eligendi praesentium? Sed quasi nam nisi
-                                ipsa.</p>
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide testimonials-item">
-                            <div class="info">
-                                <img src="./assets/src/pic4.png" alt="">
-                                <div class="text-box">
-                                    <h3 class="name">John Doe</h3>
-                                    <span class="job">Web developer</span>
-                                </div>
-                            </div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et accusantium aspernatur,
-                                esse perferendis sequi tempora quae quaerat dolorem,
-                                sunt doloremque laudantium sed quisquam eligendi praesentium? Sed quasi nam nisi
-                                ipsa.</p>
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide testimonials-item">
-                            <div class="info">
-                                <img src="./assets/src/pic5.png" alt="">
-                                <div class="text-box">
-                                    <h3 class="name">John Doe</h3>
-                                    <span class="job">Web developer</span>
-                                </div>
-                            </div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et accusantium aspernatur,
-                                esse perferendis sequi tempora quae quaerat dolorem,
-                                sunt doloremque laudantium sed quisquam eligendi praesentium? Sed quasi nam nisi
-                                ipsa.</p>
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination js-testimonals-pagination"></div>
-            </div>
-
-            <div class="information">
-                <div class="info_motivation">
-                    <h3>Наши знания – <span>твой ключ к успеху.</span> Присоединяйся и открывай двери к возможностям!</h3>
-                </div>
-                <div class="info_btn">
-                    <button class="std_btn_info">Выбрать курс</button>
-                    <button class="std_btn_info">Оставить заявку </button>
-                </div>
-            </div>
-
+    <section class="difference">
+      <div class="container difference__wrapper">
+        <div class="difference__text">
+          <h2 class="difference__text-title">В чем наше <br />отличие?</h2>
+          <p class="difference__text-desc">
+            Исследуйте мир IT с уникальным курсом, который выходит за рамки
+            стандартного обучения. Откройте для себя инновационные подходы и
+            передовые технологии под руководством ведущих экспертов отрасли.
+          </p>
+          <button class="button difference__button">Подробнее</button>
         </div>
-    </section> -->
+
+        <img src="./assets/src/icons/student-2.svg" />
+
+        <div class="difference__icons">
+          <div class="difference__icon">
+            <img src="./assets/src/difference/icon-1.png" />
+            <div class="difference__icons-text">
+              <p class="difference-count">300</p>
+              <p class="difference-role">Инструкторов</p>
+            </div>
+          </div>
+          <div class="difference__icon">
+            <img src="./assets/src/difference/icon-1.png" />
+            <div class="difference__icons-text">
+              <p class="difference-count">20,000+</p>
+              <p class="difference-role">Студентов</p>
+            </div>
+          </div>
+          <div class="difference__icon">
+            <img src="./assets/src/difference/icon-1.png" />
+            <div class="difference__icons-text">
+              <p class="difference-count">10,000+</p>
+              <p class="difference-role">Видео</p>
+            </div>
+          </div>
+          <div class="difference__icon">
+            <img src="./assets/src/difference/icon-1.png" />
+            <div class="difference__icons-text">
+              <p class="difference-count">100,000+</p>
+              <p class="difference-role">Пользователей</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section_header">
+          <h3 class="section_header_title">Отзывы о наших курсах</h3>
+        </div>
+        <div class="testimonals-content">
+          <div class="swiper testimonals_slider js-testimonals_slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                  <img src="./assets/src/pic1.png" alt="" />
+                  <div class="text-box">
+                    <h3 class="name">Айзат Байсалов</h3>
+                    <span class="job">Web developer</span>
+                  </div>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+                  accusantium aspernatur, esse perferendis sequi tempora quae
+                  quaerat dolorem, sunt doloremque laudantium sed quisquam
+                  eligendi praesentium? Sed quasi nam nisi ipsa.
+                </p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              </div>
+
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                  <img src="./assets/src/pic2.png" alt="" />
+                  <div class="text-box">
+                    <h3 class="name">Иса Рахатбеков</h3>
+                    <span class="job">Web developer</span>
+                  </div>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+                  accusantium aspernatur, esse perferendis sequi tempora quae
+                  quaerat dolorem, sunt doloremque laudantium sed quisquam
+                  eligendi praesentium? Sed quasi nam nisi ipsa.
+                </p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              </div>
+
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                  <img src="./assets/src/pic3.png" alt="" />
+                  <div class="text-box">
+                    <h3 class="name">Жаныл Токтогазиева</h3>
+                    <span class="job">Web developer</span>
+                  </div>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+                  accusantium aspernatur, esse perferendis sequi tempora quae
+                  quaerat dolorem, sunt doloremque laudantium sed quisquam
+                  eligendi praesentium? Sed quasi nam nisi ipsa.
+                </p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              </div>
+
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                  <img src="./assets/src/pic4.png" alt="" />
+                  <div class="text-box">
+                    <h3 class="name">Акылбек Андакулов</h3>
+                    <span class="job">Web developer</span>
+                  </div>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+                  accusantium aspernatur, esse perferendis sequi tempora quae
+                  quaerat dolorem, sunt doloremque laudantium sed quisquam
+                  eligendi praesentium? Sed quasi nam nisi ipsa.
+                </p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              </div>
+
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                  <img src="./assets/src/pic5.png" alt="" />
+                  <div class="text-box">
+                    <h3 class="name">Сыймык Равшанбеков</h3>
+                    <span class="job">Web developer</span>
+                  </div>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+                  accusantium aspernatur, esse perferendis sequi tempora quae
+                  quaerat dolorem, sunt doloremque laudantium sed quisquam
+                  eligendi praesentium? Sed quasi nam nisi ipsa.
+                </p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination js-testimonals-pagination"></div>
+        </div>
+
+        <div class="information">
+          <div class="info_motivation">
+            <h3>
+              Наши знания – <span>твой ключ к успеху.</span> Присоединяйся и
+              открывай двери к возможностям!
+            </h3>
+          </div>
+          <div class="info_btn">
+            <button class="std_btn_info std_btn_info-primary">Выбрать курс</button>
+            <button class="std_btn_info">Оставить заявку</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.js-testimonals_slider', {
-            grabCursor: true,
-            spaceBetween: "30px",
-            pagination: {
-                el: 'js-testimonals-pagination',
-                clickable:true
-            },
-            breakpoints:{
-                767:{
-                    slidesPerView:2
-                }
-            }
-        });
-    </script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
