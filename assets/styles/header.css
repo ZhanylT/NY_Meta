@@ -23,7 +23,7 @@
 }
 
 .header__link {
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 500;
   transition: 0.4s all ease-in-out;
 }
@@ -125,13 +125,7 @@
   }
 }
 
-@media (max-width: 1670px) {
-  .bell {
-    display: none;
-  }
-}
-
-@media (max-width: 1330px) {
+@media (max-width: 1200px) {
   .header__logo {
     z-index: 2;
   }

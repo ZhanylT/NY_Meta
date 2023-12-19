@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 26px;
-  margin-top: 65px;
+  margin-top: 50px;
 }
 
 .card {
@@ -103,7 +103,7 @@
 
 .card__bottom p {
   color: #d9ecff;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 1px;
@@ -112,16 +112,21 @@
 .card__btn {
   padding: 16px 28px;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 28px;
   border-radius: 12px;
   background: #7f56d9;
+  transition: 0.4s all ease-in-out;
+}
+
+.card__btn:hover {
+  background: #6140a8;
 }
 
 .card__title {
   color: #d9ecff;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 1px;
